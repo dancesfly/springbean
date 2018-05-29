@@ -15,5 +15,6 @@ public class App {
 		User user = (User) ctx.getBean("user");
 		((AbstractApplicationContext) ctx).close();
 		int a = 123;
+		int b = 222;
 	}
 }
