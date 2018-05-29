@@ -14,5 +14,6 @@ public class App {
 		ApplicationContext ctx = new ClassPathXmlApplicationContext("spring.xml");
 		User user = (User) ctx.getBean("user");
 		((AbstractApplicationContext) ctx).close();
+		int a = 123;
 	}
 }
